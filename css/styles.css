@@ -603,3 +603,17 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 .footer-icons {
     fill: #f4f4fd;
 }
+
+.mailing-list-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.mailing-form {
+    display: flex;
+    gap: 24px;
+}

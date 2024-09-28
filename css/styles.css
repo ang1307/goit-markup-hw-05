@@ -825,7 +825,7 @@ fill: #4D5AE5;
     fill: transparent;
 }
 
-.modal-form-checkbox:checked {
+.custom-checkbox {
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;

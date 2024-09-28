@@ -824,3 +824,9 @@ fill: #4D5AE5;
     justify-content: center;
     fill: transparent;
 }
+
+.modal-form-checkbox:checked {
+    background-color:#404bbf;
+    border: none;
+    fill:#F4F4FD;
+}

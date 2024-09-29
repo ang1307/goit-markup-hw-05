@@ -873,7 +873,7 @@ fill: #4D5AE5;
     fill: transparent;
 }
 
-.modal-form-checkbox + .visually-hidden:checked+label>span {
+.modal-form-checkbox:checked+.modal-form-checkbox-label>.custom-checkbox {
     background-color: #404bbf;;
     fill: #F4F4FD;;
     border: none;

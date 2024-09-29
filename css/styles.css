@@ -747,8 +747,8 @@ border: none;
     border: none;
 }
 
-.modal-close-button:hover .button-icon,
-.modal-close-button:focus .button-icon {
+.modal-close-button:hover .modal-close-icon,
+.modal-close-button:focus .modal-close-icon {
     fill: #FFFFFF;
 }
 

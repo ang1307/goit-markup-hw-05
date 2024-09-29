@@ -708,9 +708,13 @@ border: none;
 }
 
 
+.input:checked+label>span {
+    fill: #ffffff;
+}
 
-
-
+.input:focus+label>span {
+    fill: #ffffff;
+}
 
 
 
@@ -831,6 +835,12 @@ fill: #4D5AE5;
 .checkbox-icon {
     color: #4d5ae5;;
 }
+
+
+.policy-link {
+    color: #4d5ae5;;
+}
+
 
 .modal-form-submit-button {
     display: block;

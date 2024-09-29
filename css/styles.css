@@ -894,6 +894,7 @@ border: none;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #ffffff;
+        cursor: pointer;
         background-color: #4d5ae5;
         min-width: 169px;
         height: 56px;

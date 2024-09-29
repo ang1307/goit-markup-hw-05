@@ -735,14 +735,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-button:hover {
-    background-color: #404bbf;
+.button-close:hover,
+.button-close:focus {
+    background-color: #404BBF;
     border: none;
-}
-
-.modal-close-button:focus{
-background-color: #404bbf;
-border: none;
 }
 
 .modal-close-icon {
@@ -750,7 +746,10 @@ border: none;
 }
 
 
-
+.button-close:hover .button-icon,
+.button-close:focus .button-icon {
+    fill: #FFFFFF;
+}
 
 
 

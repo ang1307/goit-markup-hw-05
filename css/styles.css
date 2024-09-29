@@ -708,13 +708,6 @@ border: none;
 }
 
 
-.input:checked+label>span {
-    fill: #ffffff;
-}
-
-.input:focus+label>span {
-    fill: #ffffff;
-}
 
 
 
@@ -736,7 +729,9 @@ border: none;
     margin-bottom: 16px;
 }
 
-
+.modal-form-wrapper {
+    margin-bottom: 8px;
+}
 
 
 

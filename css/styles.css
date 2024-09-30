@@ -619,8 +619,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 .mailing-form {
     display: flex;
         gap: 24px;
-        width: 453px;
-        height: 80px;
 }
 
 .form-label {
@@ -643,12 +641,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .form-input::placeholder {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
     color: #ffffff;
-    padding: 8px 16px;
 }
 
 .subscribe-btn {
@@ -873,6 +866,7 @@ border: none;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 5px;
 }
 
 .modal-form-checkbox:checked+.modal-form-checkbox-label>.custom-checkbox {
@@ -882,12 +876,13 @@ border: none;
 }
 
 .checkbox-icon {
-    color: #4d5ae5;;
+    color: #4d5ae5;
+
 }
 
 
 .policy-link {
-    color: #4d5ae5;;
+    color: #4d5ae5;
 }
 
 
